@@ -11,14 +11,16 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-		<style>
-			body {
-				background-image: url('images/background.jpg');
-				background-size: cover;
-				background-repeat: no-repeat;
-				background-position: center;
-			}
-		</style>
+		<div id="bg">
+				<style>
+					#bg {
+						background-image: url('images/background.jpg');
+						background-size: cover;
+						background-position: center center;
+						background-repeat: no repeat;
+					}
+				</style>
+			</div>
 	</head>
 	<body class="is-preload">
 
@@ -363,7 +365,16 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 			</div>
 
 		<!-- BG -->
-			<div id="bg"></div>
+			<div id="bg">
+				<style>
+					#bg {
+						background-image: url('images/background.jpg');
+						background-size: cover;
+						background-position: center center;
+						background-repeat: no repeat;
+					}
+				</style>
+			</div>
 
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
